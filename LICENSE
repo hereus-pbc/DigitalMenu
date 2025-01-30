@@ -1,0 +1,118 @@
+HereUS Open Source Public License
+Version 1.0 - January 30, 2025
+
+Preamble
+
+By accessing, copying, modifying, or otherwise interacting with this Work in any manner, You
+accept and agree to be bound by all terms and conditions of this License. If You do not or
+cannot agree to these terms, You must not interact with the Work in any way.
+
+Terms and Conditions
+
+1. Definitions
+
+   1.1. "License" refers to this document governing the terms of access and use of the source
+        code. This License explicitly does not apply to products distributed or deployed based
+        on this Work, which are governed by their respective "Terms of Service."
+
+   1.2. "Work" means the complete collection of files, folders, and all contents within
+        subfolders in this repository, unless explicitly stated otherwise. Official deployments
+        and distributed versions are designated as "Products" rather than "Works."
+
+   1.3. "Developer" means the primary developer(s) of the code, operating under their most
+        commonly known identification.
+
+   1.4. "Contributor" means any person or entity, other than the Developer, who has submitted
+        code or other material that has been incorporated into the Work.
+
+   1.5. "You" (or "Your") refers to any individual or entity exercising permissions granted by
+        this License.
+
+   1.6. "Derivative", "derivative", and "derivatives" refer to any kind of modification that
+        differs significantly from the original Work, including but not limited to substantial
+        alterations in functionality, structure, or presentation.
+
+2. Grant of Rights
+
+   2.1. Subject to Your compliance with this License, the Developer and Contributors grant You a
+        worldwide, royalty-free, non-exclusive license to:
+
+        a) Use, download, store, modify, display, and perform the Work for personal use only
+
+        b) Create and distribute derivative works solely for non-commercial purposes
+
+3. Requirements
+
+   3.1. To maintain the rights granted above, You must:
+
+        a) Retain all copyright, patent, trademark, and attribution notices in their original
+           form
+
+        b) Include an unmodified copy of this License with any distribution of the Work
+
+        c) Apply this License exclusively to all parts of the Work and derivatives
+
+        d) Clearly document and mark all modifications made to the Work
+
+        e) Not distribute or make the original Work available to third parties or the public
+
+        f) Not use any derivative works for commercial purposes
+
+        g) Preserve all Developer and Contributor identifications, except in derivatives where
+           explicitly permitted
+
+4. Protected Rights
+
+   4.1. Reserved Rights:
+
+        a) Developer and Contributors retain exclusive rights to their names, logos, and
+           trademarks
+
+        b) Developer maintains sole authority to designate official releases
+
+        c) Developer reserves the right to enforce this License through any legal means,
+           including but not limited to civil litigation, upon detection of License violations
+
+        d) Developer reserves authority to decide if a modified version can be considered a
+           derivate or a modification.
+
+5. Derivative Works
+
+   5.1. All derivative works must:
+
+        a) Be distributed under this identical License
+
+        b) Maintain public access to the complete source code
+
+        c) Include clear documentation of all changes from the original Work
+
+        d) Not misrepresent their relationship to the original Work, its Developer,
+           Contributors, or any combinations.
+
+6. Warranty Disclaimer and Liability Limitation
+
+   6.1. This Work is provided "AS IS" without any warranty of any kind, whether express or
+        implied, including but not limited to warranties of:
+
+        a) Merchantability
+
+        b) Fitness for a particular purpose
+
+        c) Non-infringement
+
+   6.2. Under no circumstances shall the Developer, Contributors, or copyright holders be liable
+        for any claims, damages, or other liabilities, whether in contract, tort, or any other
+        legal theory, arising from, connected with, or resulting from the Work or its use.
+
+7. Special Conditions
+
+   7.1. Developer is allowed to distribute the Work with a different license.
+
+8. Termination
+   8.1. This License and all rights granted hereunder terminate automatically upon any breach of
+        the terms contained herein.
+
+   8.2. The Developer reserves the right to terminate this License for any specific entity at
+        their sole discretion, with or without cause.
+
+                                 END OF TERMS AND CONDITIONS

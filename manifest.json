@@ -1,0 +1,60 @@
+{
+  "@context": "https://bevyframe.islekcaganmert.me/ns/manifest",
+  "app": {
+    "name": "DigitalMenu",
+    "short_name": "DigitalMenu",
+    "orientation": "any",
+    "version": "1.0.0",
+    "package": "net.hereus.digitalmenu",
+    "style": "hereus_ui_4_0",
+    "icon": "/assets/favicon.png",
+    "loginview": "/login.py",
+    "shareview": "/share.py",
+    "offlineview": "/offline.py",
+    "accept_media": [],
+    "database_filename": "app",
+    "allow_multiple_instance": true,
+    "shortcuts": {},
+    "cors": false,
+    "routing": {},
+    "disable_features": []
+  },
+  "publishing": {
+    "description": "Decentralized menu system",
+    "screenshots": []
+  },
+  "accounts": {
+    "default_network": "hereus.net",
+    "permissions": []
+  },
+  "development": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "debug": true
+  },
+  "production": {
+    "web": {
+      "host": "0.0.0.0",
+      "port": 80
+    },
+    "ios": false,
+    "android": {
+      "api_level": [
+        33,
+        35
+      ],
+      "permissions": [],
+      "features": [],
+      "adaptive_icon": {
+        "foreground": "",
+        "background": ""
+      }
+    },
+    "nt": false,
+    "macos": false,
+    "snap": false,
+    "flatpak": false,
+    "luos": false
+  },
+  "requirements": []
+}
