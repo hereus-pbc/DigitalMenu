@@ -1,4 +1,5 @@
 from bevyframe import *
+from widgets.back_button import BackButton
 
 
 def get(context: Context) -> Page:
@@ -6,9 +7,10 @@ def get(context: Context) -> Page:
         title="DigitalMenu",
         color='blank',
         childs=[
-            # Place Navbar above Root,
+            BackButton(),
             Root([
-                # Place your content here
+                Label(i)
+                for i in context.order
             ])
         ]
     )

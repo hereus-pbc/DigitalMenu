@@ -16,6 +16,11 @@ def get(context: Context) -> Page:
         color='blank',
         childs=[
             BackButton(),
+            FAB(
+                innertext=Icon('shopping_cart'),
+                onclick=context.start_redirect("/order"),
+                padding=Padding(top=Size.pixel(7))
+            ),
             Root([
                 Image(
                     item.photo,

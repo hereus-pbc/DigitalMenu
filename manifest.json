@@ -20,6 +20,7 @@
       "/<domain>/<group>/<item>": "/item.py",
       "/<domain>/<group>": "/group.py",
       "/<domain>": "/menu.py",
+      "/order": "/order.py",
       "/": "__init__.py"
     },
     "disable_features": []

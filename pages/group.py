@@ -12,8 +12,18 @@ def get(context: Context) -> Page:
     return Page(
         title="DigitalMenu",
         color='blank',
+        style={
+            'body': {
+                'overflow-y': 'scroll'
+            }
+        },
         childs=[
             BackButton(),
+            FAB(
+                innertext=Icon('shopping_cart'),
+                onclick=context.start_redirect("/order"),
+                padding=Padding(top=Size.pixel(7))
+            ),
             Root([
                 Image(
                     group.photo,
@@ -37,10 +47,9 @@ def get(context: Context) -> Page:
                     ]
                 ),
                 Container(
-                    margin=Margin(left=Size.pixel(10)),
-                    position=Position.fixed(
+                    margin=Margin(
                         left=Size.pixel(10),
-                        right=Size.pixel(10),
+                        right=Size.pixel(0)
                     ),
                     childs=[
                         Box(
