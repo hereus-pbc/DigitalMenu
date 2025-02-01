@@ -9,5 +9,6 @@ class Item(Activity):
     def _assign(self, data) -> None:
         self.name = data['name']
         self.description = data['description']
-        self.price = int(data['price'])
+        self.price = int(data['price'][0])
+        self.exchange = data['price'][1]
         self.photo = data['photo']

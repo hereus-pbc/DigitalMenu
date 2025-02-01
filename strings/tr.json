@@ -1,5 +1,9 @@
 {
   "scan_qr": "QR Okut",
   "500": "Olamaz, uygulamada bir hata oluştu!",
-  "500sub": "Oluşan hatanın raporu, geliştiriciye bildirildi. Mümkün olan en kısa sürede çözüme kavuşturulacaktır. Uygulama, kendini yeniden başlatacaktır."
+  "500sub": "Oluşan hatanın raporu, geliştiriciye bildirildi. Mümkün olan en kısa sürede çözüme kavuşturulacaktır. Uygulama, kendini yeniden başlatacaktır.",
+  "add_to_order": "Siparişe Ekle",
+  "remove_from_order": "Siparişten Çıkart",
+  "already_added_1": "Siparişinizde",
+  "already_added_2": "tane bulunmakta"
 }

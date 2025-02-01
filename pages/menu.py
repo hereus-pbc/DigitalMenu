@@ -16,6 +16,11 @@ def get(context: Context) -> Page:
         raise
     menu = Menu(uri)
     context.groups = [i.id for i in menu.groups]
+    if not hasattr(context, 'domain'):
+        context.domain = ''
+    if context.domain != domain:
+        context.order = []
+    context.domain = domain
     return Page(
         title="DigitalMenu",
         color='blank',

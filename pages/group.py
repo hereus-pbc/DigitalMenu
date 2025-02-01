@@ -5,7 +5,9 @@ from objects.Group import Group
 
 def get(context: Context) -> Page:
     domain = context.query.get('domain')
-    group = Group(context.groups[int(context.query.get('group'))])
+    index = int(context.query.get('group'))
+    group = Group(context.groups[index])
+    context.items = [i.id for i in group.items]
     return Page(
         title="DigitalMenu",
         color='blank',
@@ -76,7 +78,7 @@ def get(context: Context) -> Page:
                                     ),
                                 )
                             ],
-                            onclick=context.start_redirect(f'/{domain}/{i}')
+                            onclick=context.start_redirect(f'/{domain}/{index}/{i}')
                         )
                         for i in range(len(group.items))
                     ]
