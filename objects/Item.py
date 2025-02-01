@@ -10,3 +10,4 @@ class Item(Activity):
         self.name = data['name']
         self.description = data['description']
         self.price = int(data['price'])
+        self.photo = data['photo']

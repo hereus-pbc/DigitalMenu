@@ -17,10 +17,10 @@
     "shortcuts": {},
     "cors": false,
     "routing": {
-      "/": "__init__.py",
-      "/<domain>": "/menu.py",
+      "/<domain>/<group>/<item>": "/item.py",
       "/<domain>/<group>": "/group.py",
-      "/<domain>/<group>/<item>": "/item.py"
+      "/<domain>": "/menu.py",
+      "/": "__init__.py"
     },
     "disable_features": []
   },

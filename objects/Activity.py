@@ -25,6 +25,7 @@ class Activity:
             raise TypeError(self.type)
         if isinstance(self._uri, str) and data.get('id', '').rstrip('/') != self._uri.rstrip('/'):
             raise TypeError('uri')
+        self.id = data['id']
         self._assign(data)
 
     def _assign(self, data: dict):

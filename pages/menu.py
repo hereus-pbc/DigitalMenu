@@ -15,7 +15,7 @@ def get(context: Context) -> Page:
     if not uri:
         raise
     menu = Menu(uri)
-    context.groups = menu.groups
+    context.groups = [i.id for i in menu.groups]
     return Page(
         title="DigitalMenu",
         color='blank',
