@@ -11,14 +11,15 @@ else {
       })
           .then(stream => video.srcObject = stream);
     }
-    const barcodeDetector = new BarcodeDetector({ formats: ['qr_code'] });
+    let barcodeDetector = new BarcodeDetector({ formats: ['qr_code'] });
     setInterval(() => {
       barcodeDetector.detect(video).then(codes => {
         if (codes.length === 0) return;
         if (!codes[0].rawValue.startsWith('https://menu.hereus.net/')) return;
         if (codes[0].rawValue.split('/').length !== 4) return;
         document.getElementById("box").innerHTML = 'Loading...';
+        barcodeDetector = null;
         window.location.pathname = `/${codes[0].rawValue.split('/')[3]}`;
       }).catch(err => {});
-    }, 100);
+    }, 1000);
 }

@@ -1,4 +1,5 @@
 {
   "scan_qr": "QR Okut",
-  "500": "Sunucu Hatası"
+  "500": "Olamaz, uygulamada bir hata oluştu!",
+  "500sub": "Oluşan hatanın raporu, geliştiriciye bildirildi. Mümkün olan en kısa sürede çözüme kavuşturulacaktır. Uygulama, kendini yeniden başlatacaktır."
 }

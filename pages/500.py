@@ -9,6 +9,7 @@ def get(context: Context) -> Page:
         color='blank',
         childs=[
             Title(context.string('500')),
+            Label(context.string('500sub')),
             JavaScript([
                 context.execute.setTimeout(JavaScript("() => { window.location.href = '/'; }"), 3000)
             ])
