@@ -12,4 +12,3 @@ def get(context: Context) -> Page:
             ])
         ]
     )
-            

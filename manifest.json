@@ -7,7 +7,7 @@
     "version": "1.0.0",
     "package": "net.hereus.digitalmenu",
     "style": "hereus_ui_4_0",
-    "icon": "/assets/favicon.png",
+    "icon": "https://static.hereus.net/favicon.png",
     "loginview": "/login.py",
     "shareview": "/share.py",
     "offlineview": "/offline.py",
@@ -16,7 +16,12 @@
     "allow_multiple_instance": true,
     "shortcuts": {},
     "cors": false,
-    "routing": {},
+    "routing": {
+      "/": "__init__.py",
+      "/<domain>": "/menu.py",
+      "/<domain>/<group>": "/group.py",
+      "/<domain>/<group>/<item>": "/item.py"
+    },
     "disable_features": []
   },
   "publishing": {
@@ -39,10 +44,7 @@
     },
     "ios": false,
     "android": {
-      "api_level": [
-        33,
-        35
-      ],
+      "api_level": [33, 35],
       "permissions": [],
       "features": [],
       "adaptive_icon": {

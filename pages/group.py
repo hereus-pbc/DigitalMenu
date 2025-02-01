@@ -4,7 +4,7 @@ from bevyframe import *
 def get(context: Context) -> Page:
     return Page(
         title="DigitalMenu",
-        color=context.user.id.settings.theme_color,
+        color='blank',
         childs=[
             # Place Navbar above Root,
             Root([
@@ -12,4 +12,3 @@ def get(context: Context) -> Page:
             ])
         ]
     )
-            
