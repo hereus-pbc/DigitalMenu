@@ -1,9 +1,9 @@
 from bevyframe import *
 from objects.Item import Item
+from widgets.back_button import BackButton
 
 
 def get(context: Context) -> Page:
-    group = int(context.query.get('group'))
     index = int(context.query.get('item'))
     item = Item(context.items[index])
     count = 0
@@ -15,7 +15,7 @@ def get(context: Context) -> Page:
         title="DigitalMenu",
         color='blank',
         childs=[
-            # Place Navbar above Root,
+            BackButton(),
             Root([
                 Image(
                     item.photo,
