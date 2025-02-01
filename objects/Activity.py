@@ -9,7 +9,7 @@ class Activity:
 
     def _load(self) -> None:
         if isinstance(self._uri, str) and self._uri.startswith("https://"):
-            resp = requests.get(self._uri)
+            resp = requests.get(self._uri, headers={'User-Agent': 'net.hereus.digitalmenu/1.0'})
             if resp.status_code != 200:
                 raise Exception(resp.status_code)
             if resp.headers["Content-Type"] != "application/activity+json":
