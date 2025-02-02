@@ -1,0 +1,14 @@
+{
+  "scan_qr": "Scan QR Code",
+  "500": "Olamaz, uygulamada bir hata oluştu!",
+  "500sub": "Oluşan hatanın raporu, geliştiriciye bildirildi. Mümkün olan en kısa sürede çözüme kavuşturulacaktır. Uygulama, kendini yeniden başlatacaktır.",
+  "add_to_order": "Add to Order",
+  "remove_from_order": "Remove from Order",
+  "already_added_1": "There is",
+  "already_added_2": "in your order.",
+  "create_order": "Create Order",
+  "qr_to_waiter": "To complete your order, show this QR code.",
+  "read_order": "Read Order",
+  "read_new": "Read Another Order",
+  "create_qr": "Create QR"
+}
