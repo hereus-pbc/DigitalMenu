@@ -6,12 +6,12 @@ Decentralized QR code menu system.
 [![ActivityStreams](https://img.shields.io/badge/ActivityStreams-Available-red.svg)](https://www.w3.org/ns/activitystreams)
 [![HereUS OSPL 1.0](https://img.shields.io/badge/License-HereUS%20OSPL%201.0-blue.svg)](https://static.hereus.net/hereus_osl.txt)
 
-<img src="https://github.com/user-attachments/assets/52eb6650-2f6c-498d-aac7-2fb7f9b7747a" width=33%>
-<img src="https://github.com/user-attachments/assets/6cf4e9cd-b568-432a-ae7e-baf6d2d23205" width=33%>
-<img src="https://github.com/user-attachments/assets/cb79b7f7-05c4-4025-88cc-9bf297b546d3" width=33%>
-<img src="https://github.com/user-attachments/assets/4ec8c5eb-6654-420d-990b-b5e2ef40d5a6" width=33%>
-<img src="https://github.com/user-attachments/assets/d66706e0-4022-48f4-abb9-62d25af5015c" width=33%>
-<img src="https://github.com/user-attachments/assets/6b3a47a1-e769-4e7d-974f-d5b9bf3127e3" width=33%>
+<img src="https://github.com/user-attachments/assets/52eb6650-2f6c-498d-aac7-2fb7f9b7747a" width=32.5%>
+<img src="https://github.com/user-attachments/assets/6cf4e9cd-b568-432a-ae7e-baf6d2d23205" width=32.5%>
+<img src="https://github.com/user-attachments/assets/cb79b7f7-05c4-4025-88cc-9bf297b546d3" width=32.5%>
+<img src="https://github.com/user-attachments/assets/4ec8c5eb-6654-420d-990b-b5e2ef40d5a6" width=32.5%>
+<img src="https://github.com/user-attachments/assets/d66706e0-4022-48f4-abb9-62d25af5015c" width=32.5%>
+<img src="https://github.com/user-attachments/assets/6b3a47a1-e769-4e7d-974f-d5b9bf3127e3" width=32.5%>
 
 ## Manifest
 
