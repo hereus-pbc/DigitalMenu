@@ -44,6 +44,15 @@ def get(context: Context) -> Page | Response:
                     ),
                 ]
             ),
+            Button(
+                selector='mini',
+                position=Position.fixed(
+                    top=Size.pixel(10),
+                    right=Size.pixel(10),
+                ),
+                innertext=context.string('read_order', context.browser.language),
+                onclick=context.start_redirect('/read_order')
+            ),
             Container(
                 position=Position.fixed(
                     bottom=Size.pixel(0),

@@ -17,11 +17,13 @@
     "shortcuts": {},
     "cors": false,
     "routing": {
+      "/order": "/order.py",
+      "/read_order": "/read_order.py",
+      "/read_order/<code>": "/read_order.py",
       "/<domain>/<group>/<item>": "/item.py",
       "/<domain>/<group>": "/group.py",
       "/<domain>": "/menu.py",
-      "/order": "/order.py",
-      "/": "__init__.py"
+      "/": "read_qr.py"
     },
     "disable_features": []
   },

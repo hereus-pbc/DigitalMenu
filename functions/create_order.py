@@ -5,16 +5,18 @@ import io
 import gzip
 
 
-def create_order(context: Context) -> change_html:
+def create_order(context: Context, desc: bool = True) -> change_html:
     qr_content = ' '.join(context.order)
     qr_content = gzip.compress(qr_content.encode()).hex()
     img = qrcode.make(qr_content)
     fake_file = io.BytesIO()
     img.save(fake_file, format='PNG')
+    context.order = []
     return change_html(
         '#root',
         [
-            SubTitle(context.string("qr_to_waiter", context.browser.language)),
+            SubTitle(context.string("qr_to_waiter", context.browser.language))
+            if desc else '',
             Image(
                 src=f"data:image/png;base64,{base64.b64encode(fake_file.getvalue()).decode()}",
                 alt='QR Code',
