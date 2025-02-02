@@ -5,5 +5,7 @@
   "add_to_order": "Siparişe Ekle",
   "remove_from_order": "Siparişten Çıkart",
   "already_added_1": "Siparişinizde",
-  "already_added_2": "tane bulunmakta"
+  "already_added_2": "tane bulunmakta",
+  "create_order": "Siparişi Oluştur",
+  "qr_to_waiter": "Siparişi tamamlamak için bu karekodu gösterin."
 }
